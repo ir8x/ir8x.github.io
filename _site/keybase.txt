@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rishigiri
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ir8x.me
+  * I am rishigiri (https://keybase.io/rishigiri) on keybase.
+  * I have a public key ASAB__iKNCfwjYeZWhZRPmFPRWlxEXpsHBlKxB7JKJWjYwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012001fff88a3427f08d87995a16513e614f456971117a6c1c194ac41ec92895a3630a",
+      "host": "keybase.io",
+      "kid": "012001fff88a3427f08d87995a16513e614f456971117a6c1c194ac41ec92895a3630a",
+      "uid": "56aba050aa9fe773cde34455178c4419",
+      "username": "rishigiri"
+    },
+    "merkle_root": {
+      "ctime": 1657690887,
+      "hash": "249fe8259b5afcff3abe4a1db314017c1fcc7bb3050efc4bd30a037df9ff3e1084356ab33ed1aff94a1f717c72c867a35fc6a6aa47932217d413089b5a86b941",
+      "hash_meta": "094b0c4979fcc9e9e83499f5abf66bda962881302454f5eedc7f6baf0f751206",
+      "seqno": 22839908
+    },
+    "service": {
+      "entropy": "nhIJxu1IDLM7/kCvk9oY6jTU",
+      "hostname": "ir8x.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1657690977,
+  "expire_in": 504576000,
+  "prev": "990cc2fe92c60275c72d75cf5a85e12ea886493be8586453b13a8e8c564f18a3",
+  "seqno": 41,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAf/4ijQn8I2HmVoWUT5hT0VpcRF6bBwZSsQeySiVo2MKp3BheWxvYWTESpcCKcQgmQzC/pLGAnXHLXXPWoXhLqiGSTvoWGRTsTqOjFZPGKPEIIqXXT0nbuywp/ZMomEpZt28UMty4th9lmBZUiOdJ7h0AgHCo3NpZ8RAJ2bG2p+CPr1RwqQAivcWwlOa1Uz73XKzlIaKDNFN+CcgwOjaykK7J906IpDRErbT+WcJ5G8p/mWCNc7SaLVsBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIPAMINE8Nyf02MXw2f1tjxmuIYlGzT/6IUqrcWgFIyto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rishigiri
+
+==================================================================
