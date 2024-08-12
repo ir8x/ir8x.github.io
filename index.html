@@ -1,27 +1,43 @@
----
-layout: base
----
-<div class="wrapper">
-    <header>
-        {% if site.compass.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-        </div>
-        {% endif %}
+<html lang="en">
 
-        {% if site.compass.author %}
-        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
-        {% endif %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm Rishi. I build and ship tools, both simple and complex. That's mostly it!">
+    <meta name="keywords" content="Rishi Giri, 0.1x Programmer, GitHub, Twitter, Instagram">
+    <meta name="author" content="Rishi">
+    <meta property="og:title" content="Rishi's Space">
+    <meta property="og:description" content="Hi, I'm Rishi. I build and ship tools, both simple and complex. That's mostly it!">
+    <meta property="og:image" content="https://example.com/your-image.jpg"> <!-- Replace with your image URL -->
+    <meta property="og:url" content="https://ir8x.github.io"> <!-- Replace with your website URL -->
+    <meta property="og:type" content="website">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Rishi's Space">
+    <meta property="twitter:description" content="Hi, I'm Rishi. I build and ship tools, both simple and complex. That's mostly it!">
+    <meta property="twitter:image" content="https://example.com/your-image.jpg"> <!-- Replace with your image URL -->
+    <title>Rishi's Space</title>
+    <link rel="icon" type="image/ico" href="https://www.svgrepo.com/show/401191/bird.svg">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
 
-        {% if site.compass.tagline %}
-        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
-        {% endif %}
-    </header>
-    <main>
-      {% if site.compass.include_content %}
-      <div class="content">
-        {% include content.html %}
-      </div>
-      {% endif %}
-    </main>
-</div>
+    body {
+        font-family: "Ysabeau SC", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="flex flex-col items-center justify-center min-h-screen bg-background text-foreground">
+        <h1 class="text-4xl font-bold mb-4">🐦</h1>
+        <p class="text-lg text-muted-foreground text-center mb-6">Hi, my name is Rishi. I build and ship tools, both simple and complex. That's mostly it!</p>
+        <p class="mb-4">
+            <a href="mailto:rushforlinux@gmail.com" class="text-primary hover:underline">Say hi</a> or find me on <a href="https://github.com/CodeDotJS" class="text-primary hover:underline">GitHub</a>,
+            <a href="https://instagram.com/iama_rishi" class="text-primary hover:underline">Instagram</a>, or <a href="https://x.com/Rishi_Giri_" class="text-primary hover:underline">Twitter</a>.
+        </p>
+    </div>
+</body>
+
+</html>
